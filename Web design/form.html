@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Form</title>
+    <script src="https://kit.fontawesome.com/8948fd4a34.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: white">
+<div class="sidenav">
+
+
+        <a href="home.html">Home</a>
+        <a href="2nd.html">second</a>
+     <a href="form.html">Form</a>
+    <a href="dropdown.html">dropdown</a>
+    <a href="buttons.html">Buttons</a>
+    <a href="animation.html">Animations</a>
+
+
+</div>
+<div class="main">
+    <p>Hey you made it</p>
+
+</div>
+<div class="form">
+    <form action="/action_page.txt" target="_blank" autocomplete="off" style="background-color: white">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="First Name here" title="Enter your first name ONLY /n" autofocus><br><br>
+        <label for="lname">Last Name </label>
+        <input type="text" name="lname" id="lname" value="Last Name" title="Enter your Last name ONLY" style="background-color:white"><br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" value="Password" title="Atleast 6 characters, Must contain an uppercase letter, lowercase latter and a number"><br><br>
+        <input type="radio" name="gender" id="male" value="male" >
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female" >
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender" id="other" value="other" >
+        <label for="other">Other</label><br><br>
+        <select id="food" name="food" style="padding:12px 8px; font-size: 15px; width: 200px">
+            <option value="none" selected>Select food item</option>
+            <option value="banana">Banana</option>
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="apricot">Apricot</option>
+
+        </select><br><br>
+        <labal for="browsers">Choose Browser</labal><br>
+        <input list="browsers" title="Choose Browser">
+        <datalist id="browsers">
+
+            <option value="chrome"></option>
+            <option value="Microsoft Edge"></option>
+            <option value="Mozilla Firefox"></option>
+            <option value="Opera"></option>
+
+        </datalist><br><br>
+        <button type="reset">reset</button>
+        <input type="submit" style="color:black; background-color: grey" value="submit">
+
+
+    </form>
+
+
+</div>
+
+
+
+
+</body>
