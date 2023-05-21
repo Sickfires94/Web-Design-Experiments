@@ -1,0 +1,16 @@
+style {
+    li a {
+        color: green;
+    }
+    p {
+        color: red;
+    }
+    body {
+        background: white url("images/background.gif.jpg" ) no-repeat;
+    }
+
+    img {
+        max-width: 500%;
+        height: 500%;
+        }
+}
